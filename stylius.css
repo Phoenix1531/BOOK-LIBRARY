@@ -1,0 +1,160 @@
+
+nav{
+    height: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+ }
+ 
+ nav>a{
+    color:rgb(8, 8, 8);
+    font-weight:500;
+    text-decoration: none;
+ }
+ 
+ nav>a:hover{
+    color: #0da4eb;
+    font-weight: bold;
+ }
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgb(253, 247, 247);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(8, 180, 248);
+    color: white;
+    margin: 80px;
+}
+
+h2{
+    text-align: center;
+    padding:8px;
+    background-color: #1473f0;
+    color:#fff;
+}
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.book {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+.book img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+p.author {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+p.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #0d95f0;
+    margin-top: 32px;
+ }
+ 
+ .button p{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ 
+
+.reasons {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.reasons h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.reasons ol {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    padding-left: 20px;
+}
+
+footer{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 273px;
+ }
+ 
+ footer p{
+    text-align: right;
+    padding-bottom: 64px;
+ }
+ 
+ .contact-container{
+    position: relative;
+    left: 0;
+    height: 273px;
+    max-width: 596px;
+    background-color: #1473f0;
+ }
+ 
+ .contact-container>h2,
+ .contact-container>a{
+    padding-left: 116px;
+    padding-top: 60px;
+    color: white;
+    margin-right: 282px;
+ }
+ 
+ .social-media-container{
+    width: 103px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 116px;
+ }
+ 
+ .social-media-container>img{
+    width: 20px;
+ }
